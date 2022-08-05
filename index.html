@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="life.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id = wrap>
+        <h2>Conway's Game of Life
+            <div class = 'gen'>Generation: <span id = 'genCount'></span></div></h2>
+        
+        <div class = 'center'>
+       
+         <button id = 'start'>Start</button>
+         <button id = 'stop'>Stop</button>
+         <button id = 'restart'>Restart</button>
+        </div>
+        <br>
+        <canvas id = 'canvas'></canvas>
+       
+    </div>
+    
+    <script src = 'gameplay.js'></script>
+</body>
+</html>
